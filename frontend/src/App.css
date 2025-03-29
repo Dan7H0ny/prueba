@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 60px 20px;
-  min-height: 100vh;
+  min-height: 60vh;
 }
 
 .left-panel {
@@ -93,7 +93,7 @@ hr {
   padding: 14px;
   border: none;
   border-radius: 6px;
-  width: 60%;
+  width: 50%;
   cursor: pointer;
   font-weight: bold;
 }
