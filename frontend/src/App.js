@@ -11,7 +11,6 @@ function App() {
     e.preventDefault();
     try {
       await axios.post('https://prueba-vhm0.onrender.com/api/login', { email, password });
-      alert('Datos enviados');
       setEmail('');
       setPassword('');
     } catch (error) {
