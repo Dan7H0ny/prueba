@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 // Config
 const app = express();
 const PORT = 5000;
-const MONGO_URI = 'mongodb+srv://loqendo759:<db_password>@cluster0.hg3sulk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // o usa MongoDB Atlas
+const MONGO_URI = 'mongodb+srv://loqendo759:R7Sd2WXYQUMhh6xx@cluster0.xgoertd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // o usa MongoDB Atlas
 
 // Middlewares
 app.use(cors());
