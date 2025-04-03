@@ -65,4 +65,12 @@
   .footer-content a {
     text-align: left; /* Alinea a la izquierda los enlaces que empiezan con "left" */
   }
-  
+
+/* Ajustes para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  /* Footer fijo en móviles */
+  .footer {
+    position: relative; /* Evita que se superponga */
+    margin-top: 20px;
+  }
+}

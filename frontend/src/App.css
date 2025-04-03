@@ -107,3 +107,36 @@ hr {
   text-align: center;
   margin-top: 20px;
 }
+/* Ajustes para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .main-container {
+    flex-direction: column; /* Cambia a diseño en columna */
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    min-height: 60vh;
+  }
+  
+  .left-panel {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .slogan {
+    font-size: 20px; /* Reduce tamaño del texto */
+    padding: 0 10px;
+  }
+
+  .right-panel {
+    width: 90%; /* Ocupa más espacio */
+    margin-top: 20px;
+  }
+
+  .login-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+}
